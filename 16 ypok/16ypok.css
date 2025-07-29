@@ -1,0 +1,24 @@
+button:hover {
+    background-color: lightblue;
+}
+input:focus {
+    border: 2px solid green;
+}
+li:first-child {
+    color: red;
+}
+li:last-child {
+    color: blue;
+}
+a:hover {
+    color: greenyellow;
+}
+p:ntn-child(odd) {
+    background-color: cyan;
+}
+.container p:first-child:hover {
+    background-color: magenta;
+}
+.container p:last-child:focus {
+    border: 2px dashed red;
+}
