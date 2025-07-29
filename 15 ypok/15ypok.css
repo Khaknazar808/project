@@ -1,0 +1,20 @@
+.inline-demo {
+    display: inline;
+    background-color: gray;
+}
+.block-demo {
+    display: block;
+    background-color: darksalmon;
+}
+.to-block {
+    display: block;
+    margin-bottom: 10px;
+}
+.to-inline {
+    display: inline;
+    background-color: pink;
+}
+div > * {
+    display: block;
+    margin-bottom: 8px;
+}
