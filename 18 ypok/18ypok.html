@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Примеры position: static, relative, absolute, fixed, sticky</title>
+  <link rel="stylesheet" href="18ypok.css">
+</head>
+<body>
+
+  <h1>Демонстрация всех значений свойства position</h1>
+  <h2>1. Position: static (по умолчанию)</h2>
+  <div class="block" style="position: static;">
+    Блок 1 (static)
+  </div>
+  <div class="block" style="position: static;">
+    Блок 2 (static)
+  </div>
+  <div class="block" style="position: static;">
+    Блок 3 (static)
+  </div>
+
+  <h2>2. Position: relative</h2>
+  <div class="block relative">
+    Этот блок смещён на 20px вниз и 30px вправо
+  </div>
+
+  <h2>3. Position: absolute</h2>
+  <div class="container">
+    <div class="absolute">
+      Absolute блок
+    </div>
+  </div>
+
+  <h2>4. Position: fixed</h2>
+  <div class="long-content">
+    Прокрутите вниз, чтобы увидеть, что элемент "fixed" остаётся на месте.
+  </div>
+  <div class="fixed">
+    Fixed элемент
+  </div>
+
+  <h2 class="sticky">5. Position: sticky</h2>
+  <div class="block">
+    Прокрутите страницу — заголовок останется сверху при скролле.
+  </div>
+  <div class="long-content"></div>
+
+</body>
+</html>
