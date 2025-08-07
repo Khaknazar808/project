@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задание по display и flex</title>
+
+</head>
+<body>
+
+  <h1>Задания по display и flex</h1>
+
+  <h2>Задание 1: Свойство display</h2>
+  <div class="block">Элемент с display: block</div>
+  <div class="inline">Элемент с display: inline</div>
+  <div class="flex">>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <h2>Задание 2: Flex-контейнер</h2>
+  <div class="flex">
+    <div>Элемент A</div>
+    <div>Элемент B</div>
+    <div>Элемент C</div>
+  </div>
+
+  <h2>Задание 3: flex-direction, flex-wrap, flex-flow</h2>
+  <h3>flex-direction: column</h3>
+  <div class="flex-direction-column">
+    <div>Первый</div>
+    <div>Второй</div>
+    <div>Третий</div>
+  </div>
+
+  <h3>flex-wrap</h3>
+  <div class="flex-wrap">
+    <div class="wrap-item">1</div>
+    <div class="wrap-item">2</div>
+    <div class="wrap-item">3</div>
+    <div class="wrap-item">4</div>
+    <div class="wrap-item">5</div>
+  </div>
+
+  <h3>flex-flow: row wrap</h3>
+  <div class="flex-flow">
+    <div>Ячейка 1</div>
+    <div>Ячейка 2</div>
+    <div>Ячейка 3</div>
+    <div>Ячейка 4</div>
+    <div>Ячейка 5</div>
+  </div>
+
+  <h2>Задание 4: Выравнивание элементов</h2>
+  <div class="aligned">
+    <div>Центрированный элемент</div>
+  </div>
+
+  <h2>Задание 5: Свойства flex-grow, flex-shrink, flex-basis</h2>
+  <div style="display: flex; gap: 10px; background: #f0f0f0; padding: 10px;">
+    <div style="flex-grow: 1; flex-shrink: 1; flex-basis: 100px; background: #cfc; padding: 10px;">1</div>
+    <div style="flex-grow: 2; flex-shrink: 1; flex-basis: 100px; background: #ccf; padding: 10px;">2</div>
+    <div style="flex: 1 0 150px; background: #fcc; padding: 10px;">3 (свойство flex)</div>
+  </div>
+
+  <h2>Задание 6: Практическое задание</h2>
+  <div style="display: flex; gap: 10px; background: #eef; padding: 10px;">
+    <div style="flex: 0 0 50%; background: #ffd; padding: 10px;">50% ширины</div>
+    <div style="flex: 1; background: #dff; padding: 10px;">Растягивается</div>
+    <div style="flex: 0 0 100px; background: #fdd; padding: 10px;">100px фиксировано</div>
+  </div>
+
+  <h2>Задание 7: Меню навигации по центру</h2>
+  <nav style="display: flex; justify-content: center; align-items: center; gap: 20px; background: #222; padding: 10px;">
+    <a href="#" style="color: white; text-decoration: none;">Главная</a>
+    <a href="#" style="color: white; text-decoration: none;">О нас</a>
+    <a href="#" style="color: white; text-decoration: none;">Контакты</a>
+  </nav>
+
+ <h2>Задание 8 (продолжение): Галерея карточек с разными размерами</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+    <div style="flex: 1 1 150px; background: #e6f7ff; border: 1px solid #99d6ff; padding: 10px;">
+      <h4>Карточка A</h4>
+      <p>flex: 1 1 150px</p>
+    </div>
+    <div style="flex: 2 1 200px; background: #fff0f6; border: 1px solid #ff99cc; padding: 10px;">
+      <h4>Карточка B</h4>
+      <p>flex: 2 1 200px</p>
+    </div>
+    <div style="flex: 1 2 100px; background: #f0fff0; border: 1px solid #99ff99; padding: 10px;">
+      <h4>Карточка C</h4>
+      <p>flex: 1 2 100px</p>
+    </div>
+    <div style="flex: 1 1 180px; background: #fefbe9; border: 1px solid #ffdf00; padding: 10px;">
+      <h4>Карточка D</h4>
+      <p>flex: 1 1 180px</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
