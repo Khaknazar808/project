@@ -1,0 +1,157 @@
+body {
+    font-family: Arial,sans-serif;
+    background: #222;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 53px;
+    padding: 40px;
+}
+
+.card {
+    overflow: hidden;
+    background: #fff;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+    width: 250px;
+}
+
+.card-audio {
+    display: flex;
+    width: 1300px;
+    background: #000000;
+    color: #fff;
+    gap: 53px;
+    
+}
+
+.card-audio img {
+    width: 20%;
+    object-fit: cover ;
+    border-radius: 12px 0 0 12px;
+}
+
+.card-audio .content {
+    padding: 15px;
+}
+
+.card-audio h3 {
+    margin: 0;
+    font-size: 65px;
+}
+
+.card-audio p {
+    font-size: 22px;
+    margin: 10px 0;
+    margin-bottom: 35px;
+}
+
+.card-audio a {
+    display: block;
+    border: 1px solid #75b6c7;
+    background-color: #75b6c7;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 208px;
+    height: 51px;
+    text-align: center;
+}
+
+.card-audio b {
+    display: block;
+    border: 1px solid #1b1b1b;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 73px;
+    height: 27px;
+    text-align: center;
+    padding-top: 7.56px;
+}
+
+
+    .card-audio {
+      display: flex;
+      width: 500px;
+      background: #000;
+      color: #fff;
+    }
+    .card-audio img {
+      width: 50%;
+      object-fit: cover;
+      border-radius: 12px 0 0 12px;
+    }
+
+    .card-art {
+      background: #e9f9ed;
+      font-size: 14px;
+      padding: 15px;
+    }
+    .card-art img {
+      width: 100%;
+    }
+    .card-art h4 {
+      margin: 10px 0 5px;
+    }
+    .card-art button {
+    margin-top: 10px;
+    padding: 8px;
+    border: #598D66 solid 1px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    .card-cake {
+      text-align: left;
+      width: 200px;
+    }
+    .card-cake img {
+      width: 100%;
+    }
+    .card-cake h4 {
+      margin: 10px 0 5px;
+    }
+    .card-cake p {
+      margin-left: 30px;
+    }
+    .card-cake button {
+      margin-top: 10px;
+      padding: 8px;
+      border: none;
+      background: #f4b400;
+      color: #fff;
+      cursor: pointer;
+      width: 163px;
+      border-radius: 8px;
+      height: 68px;
+      margin-top: 14px;
+    }
+
+    .card-profile {
+      background: #0a0f2a;
+      color: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      width: 200px;
+    }
+    .card-profile h4 {
+      margin: 0 0 5px;
+    }
+    .card-profile p {
+      font-size: 12px;
+      color: #bbb;
+    }
+
+    .image-container {
+       display: flex;
+       justify-content: space-between; 
+    }
+
+    .dots {
+        margin-top: 23px ;
+        margin-right: 23px ;
+        height: 6px;
+        width: 28px;
+    }
