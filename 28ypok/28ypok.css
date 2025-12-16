@@ -1,0 +1,38 @@
+.box {
+   padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;
+}
+
+.box::before {
+   content: "Псевдоэлемент ::before вставляет содержимое перед содержимым выбранного элемента.";
+   display: block;
+   color: #d84c4c;
+   margin-bottom: 10px;
+}
+
+.after{
+    padding: 20px;
+   border: 1px solid #ccc;
+   position: relative;   
+}
+
+.after::after {
+   content: " o←<";
+   color: #007bff;
+}
+
+.before_after::before {
+    content: "________________________";
+    color: aqua;
+}
+
+.before_after::after {
+    content: "________________________";
+    color: crimson;
+    
+}
+
+.before_after {
+    display: block;
+}
