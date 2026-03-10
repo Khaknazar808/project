@@ -1,0 +1,69 @@
+.bg {
+    background-color: #F5F7FA;
+}
+
+html {
+    width: 1440px;
+}
+
+.sing {
+    margin-right: 120px;
+}
+
+.logo {
+    margin-left: 105px;
+    margin-right: 100px;
+}
+
+.knopki {
+    margin-right: 50px;
+}
+
+.Nexcent {
+    width: 300px;
+}
+
+.nex_marg {
+    margin-left: 80px !important;
+}
+
+.meet-marg {
+    margin-right: 41px !important;
+}
+
+.footers {
+    width: 601px;
+}
+
+.size {
+    font-size: 64px;
+    width: 887px;
+    margin-left: 276px;
+}
+
+.last-logo {
+    margin-bottom: 40px;
+}
+
+.card-button {
+    border: none !important;
+}
+.custom-card {
+    width: 317px;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -88px;
+    flex-direction: column;
+    background-color: #F5F7FA;
+    margin-left: 25px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.text-kartochli {
+    text-align: center !important;
+    font-size: 20px;
+    
+}
