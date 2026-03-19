@@ -2,7 +2,7 @@
     background-color: #F5F7FA;
 }
 
-html {
+body {
     width: 1440px;
 }
 
@@ -66,4 +66,26 @@ html {
     text-align: center !important;
     font-size: 20px;
     
+}
+
+.bold {
+    width: 550px;
+    font-size: 36px !important;
+}
+
+.bold_mini {
+    width: 510px;
+    font-size: 14px !important;
+}
+
+.reccomend1 {
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+}
+
+.reccomend2 {
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+}
+.new_padding {
+    padding-top: 48px !important;
+    padding-bottom: 0px !important;
 }
